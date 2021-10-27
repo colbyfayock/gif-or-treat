@@ -1,6 +1,6 @@
 # Thank You Action
 
-Say thanks any time someone makes a new Pull Request on your repository!
+Say NO thanks any time someone makes a new Pull Request on your repository!
 
 ## Getting Started
 * Create a [Tenor API](https://tenor.com/gifapi/documentation) key and set it as a [Secret](https://docs.github.com/en/actions/reference/encrypted-secrets) on your GitHub repo
