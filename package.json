@@ -1,0 +1,27 @@
+{
+  "name": "gif-or-treat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "ncc build src/action.js -o dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/colbyfayock/gif-or-treat.git"
+  },
+  "author": "Colby Fayock <hello@colbyfayock.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/colbyfayock/gif-or-treat/issues"
+  },
+  "homepage": "https://github.com/colbyfayock/gif-or-treat#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@actions/core": "^1.6.0",
+    "@actions/github": "^5.0.0",
+    "@vercel/ncc": "^0.31.1",
+    "dotenv": "^10.0.0",
+    "node-fetch": "^3.0.0"
+  }
+}
