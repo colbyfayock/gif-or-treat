@@ -18,7 +18,7 @@ jobs:
   thanks:
     runs-on: ubuntu-latest
     steps:
-      - uses: colbyfayock/gif-or-treat@master
+      - uses: colbyfayock/gif-or-treat@main
         with:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
           TENOR_TOKEN: ${{secrets.TENOR_TOKEN}}
