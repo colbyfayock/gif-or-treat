@@ -1,6 +1,8 @@
-# Thank You Action
+# Gif or Treat Action
 
 Say thanks any time someone makes a new Pull Request on your repository!
+
+👻 But beware of a spooky twist during the month of Halloween!
 
 ## Getting Started
 * Create a [Tenor API](https://tenor.com/gifapi/documentation) key and set it as a [Secret](https://docs.github.com/en/actions/reference/encrypted-secrets) on your GitHub repo
