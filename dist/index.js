@@ -8591,8 +8591,7 @@ async function run() {
     throw new Error('Invalid GITHUB_TOKEN: did you forget to set it in your action config?');
   }
 
-  const randomPos = Math.round(Math.random() * 1000);
-  const url = `https://api.tenor.com/v1/search?q=${encodeURIComponent(searchTerm)}&pos=${randomPos}&limit=1&media_filter=minimal&contentfilter=low`
+  const url = `https://api.tenor.com/v1/random?q=${encodeURIComponent(searchTerm)}&limit=1&media_filter=minimal&contentfilter=low`
 
   console.log(`Searching Tenor: ${url}`)
 
