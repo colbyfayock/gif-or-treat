@@ -8608,7 +8608,7 @@ async function run() {
 
   const octokit = github.getOctokit(GITHUB_TOKEN)
 
-  await octokit.issues.createComment({
+  await octokit.rest.issues.createComment({
     ...context.repo,
     issue_number: pull_request.number,
     body: `${message}\n\n<img src="${gifUrl}" alt="${searchTerm}" />`
