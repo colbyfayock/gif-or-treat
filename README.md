@@ -1,4 +1,4 @@
-# Thank You Action
+# Gif or Treat
 
 Say thanks any time someone makes a new Pull Request on your repository!
 
