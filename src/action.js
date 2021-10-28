@@ -7,7 +7,12 @@ async function run() {
   const GITHUB_TOKEN = core.getInput('GITHUB_TOKEN');
   const TENOR_TOKEN = core.getInput('TENOR_TOKEN') || process.env.TENOR_TOKEN;
   const message = core.getInput('message') || 'Thank you!';
-  const searchTerm = core.getInput('searchTerm') || 'thank you';
+  let searchTerm = core.getInput('searchTerm') || 'thank you';
+
+  if ( new Date().getMonth() === 9 ) {
+    // Spooky time
+    searchTerm = `spooky ${searchTerm}`;
+  }
 
   if ( typeof TENOR_TOKEN !== 'string' ) {
     throw new Error('Invalid TENOR_TOKEN: did you forget to set it in your action config?');
