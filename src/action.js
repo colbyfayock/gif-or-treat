@@ -38,6 +38,8 @@ async function run() {
   console.log(`Found pull request: ${pull_request.number}`);
 
   const octokit = github.getOctokit(GITHUB_TOKEN)
+  console.log('octokit', octokit);
+  console.log('octokit.issues', octokit.issues);
 
   await octokit.issues.createComment({
     ...context.repo,
