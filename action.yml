@@ -1,5 +1,5 @@
-name: 'PR Thank You Action'
-description: 'Demo for tutorial'
+name: 'Gif or Treat Action'
+description: 'Reply thank you to new pull requests with a spooky twist during Halloween season!'
 author: 'Colby Fayock <hello@colbyfayock.com>'
 
 inputs:
